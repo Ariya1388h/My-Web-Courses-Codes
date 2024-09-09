@@ -1,0 +1,55 @@
+body {
+    margin: D;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background: #20262C;
+    place-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+article {
+    width: 300px;
+    background-color: #2F3740;
+    padding: 1.125em;
+    border-radius: 1em;
+}
+
+img {
+    width: 100%;
+    border-radius: .4em;
+}
+
+.tag {
+    background: #455260;
+    color: #BEFF00;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: .2em .6em;
+    border-radius: .4em;
+    margin-top: 1em;
+    display: inline-block;
+}
+
+h1 a {
+    color: white;
+    font-size: 2.5rem;
+}
+a.cta {
+    color: white;
+    display: flex;
+}
+
+a.cta p {
+    margin: 0;
+    color: #B1C4D9;
+}
+
+/* .card {
+    padding: 3em;
+    font-size: 2rem;
+} */
